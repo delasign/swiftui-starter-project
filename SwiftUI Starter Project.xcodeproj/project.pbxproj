@@ -3,22 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F0A293712C6D276800135381 /* SwiftUI_Starter_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293702C6D276800135381 /* SwiftUI_Starter_ProjectApp.swift */; };
-		F0A293732C6D276800135381 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293722C6D276800135381 /* ContentView.swift */; };
+		F0996A1B2C6D55F8002D0CF9 /* UIContentMacros in Frameworks */ = {isa = PBXBuildFile; productRef = F0996A1A2C6D55F8002D0CF9 /* UIContentMacros */; };
+		F0996A1E2C6D5691002D0CF9 /* UIContentMacros in Frameworks */ = {isa = PBXBuildFile; productRef = F0996A1D2C6D5691002D0CF9 /* UIContentMacros */; };
+		F0A293712C6D276800135381 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293702C6D276800135381 /* App.swift */; };
+		F0A293732C6D276800135381 /* SampleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293722C6D276800135381 /* SampleScreen.swift */; };
 		F0A293752C6D276900135381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A293742C6D276900135381 /* Assets.xcassets */; };
 		F0A293782C6D276900135381 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A293772C6D276900135381 /* Preview Assets.xcassets */; };
+		F0A293892C6D29AC00135381 /* DebuggingIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293882C6D29AC00135381 /* DebuggingIdentifiers.swift */; };
+		F0A2938D2C6D29EF00135381 /* UIContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2938C2C6D29EF00135381 /* UIContent.swift */; };
+		F0A2938F2C6D29F500135381 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2938E2C6D29F500135381 /* Language.swift */; };
+		F0A293912C6D2A2100135381 /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = F0A293902C6D2A2100135381 /* en.json */; };
+		F0A293932C6D2A2A00135381 /* es.json in Resources */ = {isa = PBXBuildFile; fileRef = F0A293922C6D2A2A00135381 /* es.json */; };
+		F0A293972C6D2C3800135381 /* LanguageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293962C6D2C3800135381 /* LanguageCoordinator.swift */; };
+		F0A293992C6D2C6800135381 /* LanguageCoordinator+Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293982C6D2C6800135381 /* LanguageCoordinator+Generate.swift */; };
+		F0A2939B2C6D2C6E00135381 /* LanguageCoordinator+CurrentLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2939A2C6D2C6E00135381 /* LanguageCoordinator+CurrentLanguage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F0A2936D2C6D276800135381 /* SwiftUI Starter Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Starter Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0A293702C6D276800135381 /* SwiftUI_Starter_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Starter_ProjectApp.swift; sourceTree = "<group>"; };
-		F0A293722C6D276800135381 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0A293702C6D276800135381 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		F0A293722C6D276800135381 /* SampleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleScreen.swift; sourceTree = "<group>"; };
 		F0A293742C6D276900135381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0A293772C6D276900135381 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0A293882C6D29AC00135381 /* DebuggingIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingIdentifiers.swift; sourceTree = "<group>"; };
+		F0A2938C2C6D29EF00135381 /* UIContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIContent.swift; sourceTree = "<group>"; };
+		F0A2938E2C6D29F500135381 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		F0A293902C6D2A2100135381 /* en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
+		F0A293922C6D2A2A00135381 /* es.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = es.json; sourceTree = "<group>"; };
+		F0A293962C6D2C3800135381 /* LanguageCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCoordinator.swift; sourceTree = "<group>"; };
+		F0A293982C6D2C6800135381 /* LanguageCoordinator+Generate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LanguageCoordinator+Generate.swift"; sourceTree = "<group>"; };
+		F0A2939A2C6D2C6E00135381 /* LanguageCoordinator+CurrentLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LanguageCoordinator+CurrentLanguage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0996A1B2C6D55F8002D0CF9 /* UIContentMacros in Frameworks */,
+				F0996A1E2C6D5691002D0CF9 /* UIContentMacros in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +71,10 @@
 		F0A2936F2C6D276800135381 /* SwiftUI Starter Project */ = {
 			isa = PBXGroup;
 			children = (
-				F0A293702C6D276800135381 /* SwiftUI_Starter_ProjectApp.swift */,
-				F0A293722C6D276800135381 /* ContentView.swift */,
+				F0A293852C6D297700135381 /* Models */,
+				F0A293812C6D295800135381 /* Coordinators */,
+				F0A2937F2C6D293F00135381 /* UI */,
+				F0A293702C6D276800135381 /* App.swift */,
 				F0A293742C6D276900135381 /* Assets.xcassets */,
 				F0A293762C6D276900135381 /* Preview Content */,
 			);
@@ -65,6 +87,108 @@
 				F0A293772C6D276900135381 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0A2937E2C6D293A00135381 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F0A293722C6D276800135381 /* SampleScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F0A2937F2C6D293F00135381 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F0A293802C6D294A00135381 /* Components */,
+				F0A2937E2C6D293A00135381 /* Screens */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F0A293802C6D294A00135381 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F0A293812C6D295800135381 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				F0A293842C6D296C00135381 /* LanguageCoordinator */,
+				F0A293832C6D296100135381 /* Styleguide */,
+				F0A293822C6D295C00135381 /* DataCoordinator */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		F0A293822C6D295C00135381 /* DataCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataCoordinator;
+			sourceTree = "<group>";
+		};
+		F0A293832C6D296100135381 /* Styleguide */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Styleguide;
+			sourceTree = "<group>";
+		};
+		F0A293842C6D296C00135381 /* LanguageCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F0A293962C6D2C3800135381 /* LanguageCoordinator.swift */,
+				F0A293982C6D2C6800135381 /* LanguageCoordinator+Generate.swift */,
+				F0A2939A2C6D2C6E00135381 /* LanguageCoordinator+CurrentLanguage.swift */,
+			);
+			path = LanguageCoordinator;
+			sourceTree = "<group>";
+		};
+		F0A293852C6D297700135381 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0A293872C6D298E00135381 /* Constants */,
+				F0A293862C6D297E00135381 /* LanguageContent */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F0A293862C6D297E00135381 /* LanguageContent */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2938B2C6D29DF00135381 /* Content */,
+				F0A2938A2C6D29DB00135381 /* Strings */,
+			);
+			path = LanguageContent;
+			sourceTree = "<group>";
+		};
+		F0A293872C6D298E00135381 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F0A293882C6D29AC00135381 /* DebuggingIdentifiers.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F0A2938A2C6D29DB00135381 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				F0A293902C6D2A2100135381 /* en.json */,
+				F0A293922C6D2A2A00135381 /* es.json */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		F0A2938B2C6D29DF00135381 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2938C2C6D29EF00135381 /* UIContent.swift */,
+				F0A2938E2C6D29F500135381 /* Language.swift */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +207,10 @@
 			dependencies = (
 			);
 			name = "SwiftUI Starter Project";
+			packageProductDependencies = (
+				F0996A1A2C6D55F8002D0CF9 /* UIContentMacros */,
+				F0996A1D2C6D5691002D0CF9 /* UIContentMacros */,
+			);
 			productName = "SwiftUI Starter Project";
 			productReference = F0A2936D2C6D276800135381 /* SwiftUI Starter Project.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +239,9 @@
 				Base,
 			);
 			mainGroup = F0A293642C6D276800135381;
+			packageReferences = (
+				F0996A1C2C6D5691002D0CF9 /* XCLocalSwiftPackageReference "Macros/UIContentMacros" */,
+			);
 			productRefGroup = F0A2936E2C6D276800135381 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +256,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A293932C6D2A2A00135381 /* es.json in Resources */,
+				F0A293912C6D2A2100135381 /* en.json in Resources */,
 				F0A293782C6D276900135381 /* Preview Assets.xcassets in Resources */,
 				F0A293752C6D276900135381 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +270,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0A293732C6D276800135381 /* ContentView.swift in Sources */,
-				F0A293712C6D276800135381 /* SwiftUI_Starter_ProjectApp.swift in Sources */,
+				F0A293892C6D29AC00135381 /* DebuggingIdentifiers.swift in Sources */,
+				F0A2938F2C6D29F500135381 /* Language.swift in Sources */,
+				F0A293972C6D2C3800135381 /* LanguageCoordinator.swift in Sources */,
+				F0A293732C6D276800135381 /* SampleScreen.swift in Sources */,
+				F0A293712C6D276800135381 /* App.swift in Sources */,
+				F0A293992C6D2C6800135381 /* LanguageCoordinator+Generate.swift in Sources */,
+				F0A2939B2C6D2C6E00135381 /* LanguageCoordinator+CurrentLanguage.swift in Sources */,
+				F0A2938D2C6D29EF00135381 /* UIContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +483,24 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F0996A1C2C6D5691002D0CF9 /* XCLocalSwiftPackageReference "Macros/UIContentMacros" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Macros/UIContentMacros;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F0996A1A2C6D55F8002D0CF9 /* UIContentMacros */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UIContentMacros;
+		};
+		F0996A1D2C6D5691002D0CF9 /* UIContentMacros */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UIContentMacros;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F0A293652C6D276800135381 /* Project object */;
 }

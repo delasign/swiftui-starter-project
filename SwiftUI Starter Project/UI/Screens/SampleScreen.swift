@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SampleScreen.swift
 //  SwiftUI Starter Project
 //
 //  Created by Oscar de la Hera Gomez on 8/14/24.
@@ -7,18 +7,21 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SampleScreen: View {
+    @Environment (LanguageCoordinator.self) var languageCoordinator
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(languageCoordinator.currentContent.sample.sampleString)
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    SampleScreen()
+        .environment(LanguageCoordinator())
 }
