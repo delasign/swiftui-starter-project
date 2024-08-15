@@ -14,6 +14,8 @@ class LanguageCoordinator {
     // MARK: Variables
     static let identifier: String = "[LanguageCoordinator]"
     static let contentPrefix = "ui_content_"
+    
+    let languageCode: String
 
     var currentLanguage: Language = .english {
         didSet {
@@ -48,14 +50,25 @@ class LanguageCoordinator {
 
     // MARK: Lifecycle
 
-    init() {
+    init(languageCode: String? = nil) {
         debugPrint("\(LanguageCoordinator.identifier) initialize \(DebuggingIdentifiers.actionOrEventInProgress) Initializing.")
-        // Generate Languages
-        self.determineCurrentLanguage { [weak self] in
-            guard let self = self else { return }
-            self.generateLanguageContent(languages: self.availableLanguages)
-            debugPrint("\(LanguageCoordinator.identifier) initialize \(DebuggingIdentifiers.actionOrEventSucceded) Initialized.")
+        
+        
+        if let environmentLanguageCode = languageCode {
+            debugPrint("\(LanguageCoordinator.identifier) initialize \(DebuggingIdentifiers.actionOrEventSucceded) set language code to environemnt language `\(environmentLanguageCode)`.")
+            self.languageCode = environmentLanguageCode
+        } else if let code = Locale.preferredLanguages.first {
+            debugPrint("\(LanguageCoordinator.identifier) initialize \(DebuggingIdentifiers.actionOrEventSucceded) set language code to `\(code)`.")
+            self.languageCode = code
+        } else {
+            debugPrint("\(LanguageCoordinator.identifier) initialize \(DebuggingIdentifiers.actionOrEventFailed) Failed to find current language. Defaulting language code to `en`.")
+            self.languageCode = "en"
         }
-
+        
+        // Determine languages
+        self.determineCurrentLanguage()
+        // Generate Languages
+        self.generateLanguageContent(languages: self.availableLanguages)
+        debugPrint("\(LanguageCoordinator.identifier) initialize \(DebuggingIdentifiers.actionOrEventSucceded) Initialized.")
     }
 }

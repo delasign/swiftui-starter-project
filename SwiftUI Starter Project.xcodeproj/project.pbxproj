@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F0996A1B2C6D55F8002D0CF9 /* UIContentMacros in Frameworks */ = {isa = PBXBuildFile; productRef = F0996A1A2C6D55F8002D0CF9 /* UIContentMacros */; };
-		F0996A1E2C6D5691002D0CF9 /* UIContentMacros in Frameworks */ = {isa = PBXBuildFile; productRef = F0996A1D2C6D5691002D0CF9 /* UIContentMacros */; };
+		F0996A212C6E4F01002D0CF9 /* StringJSON in Frameworks */ = {isa = PBXBuildFile; productRef = F0996A202C6E4F01002D0CF9 /* StringJSON */; };
 		F0A293712C6D276800135381 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293702C6D276800135381 /* App.swift */; };
 		F0A293732C6D276800135381 /* SampleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293722C6D276800135381 /* SampleScreen.swift */; };
 		F0A293752C6D276900135381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A293742C6D276900135381 /* Assets.xcassets */; };
@@ -44,8 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0996A1B2C6D55F8002D0CF9 /* UIContentMacros in Frameworks */,
-				F0996A1E2C6D5691002D0CF9 /* UIContentMacros in Frameworks */,
+				F0996A212C6E4F01002D0CF9 /* StringJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +206,7 @@
 			);
 			name = "SwiftUI Starter Project";
 			packageProductDependencies = (
-				F0996A1A2C6D55F8002D0CF9 /* UIContentMacros */,
-				F0996A1D2C6D5691002D0CF9 /* UIContentMacros */,
+				F0996A202C6E4F01002D0CF9 /* StringJSON */,
 			);
 			productName = "SwiftUI Starter Project";
 			productReference = F0A2936D2C6D276800135381 /* SwiftUI Starter Project.app */;
@@ -240,7 +237,7 @@
 			);
 			mainGroup = F0A293642C6D276800135381;
 			packageReferences = (
-				F0996A1C2C6D5691002D0CF9 /* XCLocalSwiftPackageReference "Macros/UIContentMacros" */,
+				F0996A1F2C6E4F01002D0CF9 /* XCLocalSwiftPackageReference "Macros/StringJSON" */,
 			);
 			productRefGroup = F0A2936E2C6D276800135381 /* Products */;
 			projectDirPath = "";
@@ -485,20 +482,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		F0996A1C2C6D5691002D0CF9 /* XCLocalSwiftPackageReference "Macros/UIContentMacros" */ = {
+		F0996A1F2C6E4F01002D0CF9 /* XCLocalSwiftPackageReference "Macros/StringJSON" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = Macros/UIContentMacros;
+			relativePath = Macros/StringJSON;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F0996A1A2C6D55F8002D0CF9 /* UIContentMacros */ = {
+		F0996A202C6E4F01002D0CF9 /* StringJSON */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = UIContentMacros;
-		};
-		F0996A1D2C6D5691002D0CF9 /* UIContentMacros */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = UIContentMacros;
+			productName = StringJSON;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

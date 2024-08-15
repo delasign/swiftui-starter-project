@@ -7,14 +7,13 @@
 
 import Foundation
 import SwiftUI
-import UIContentMacros
+import StringJSON
 
 
-@UIContentParent 
+@StringJSONParent
 struct UIContent: Codable {
-    @UIContentChild 
+    @StringJSONChild
     struct Sample: Codable {
         let sampleString: String
     }
-    
 }

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SampleScreen: View {
     @Environment (LanguageCoordinator.self) var languageCoordinator
-    
+        
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -21,7 +21,13 @@ struct SampleScreen: View {
     }
 }
 
-#Preview {
-    SampleScreen()
-        .environment(LanguageCoordinator())
+struct SampleScreen_Previews: PreviewProvider {
+    static var previews: some View {
+        Group {
+            SampleScreen()
+                .environment(LanguageCoordinator(languageCode: "en"))
+            SampleScreen()
+                .environment(LanguageCoordinator(languageCode: "es"))
+        }
+    }
 }
