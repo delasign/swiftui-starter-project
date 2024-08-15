@@ -24,10 +24,19 @@ struct SampleScreen: View {
 struct SampleScreen_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            SampleScreen()
-                .environment(LanguageCoordinator(languageCode: "en"))
-            SampleScreen()
-                .environment(LanguageCoordinator(languageCode: "es"))
+            ForEach(LanguageCoordinator().availableLanguages.values.sorted(by: { "\($0)" < "\($1)" }), id: \.self) { language in
+                LocalizableSampleScreen(languageCode: language)
+            }
+        }
+    }
+    
+    struct LocalizableSampleScreen: View {
+        let languageCode: String
+        var body: some View {SampleScreen()
+                .environment(LanguageCoordinator(languageCode: languageCode))
+                .environment(\.locale, .init(identifier: languageCode))
         }
     }
 }
+
+

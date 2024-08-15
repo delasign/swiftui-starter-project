@@ -30,7 +30,7 @@ class LanguageCoordinator {
 
     var currentContent: UIContent = UIContent()
 
-    private let availableLanguages: [Language: String] = [
+    let availableLanguages: [Language: String] = [
         .english: "en",
         .spanish: "es"
     ]
