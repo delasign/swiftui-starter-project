@@ -28,10 +28,31 @@ Same as the above and select replace from the dropdown.
 10. <a href="https://delasign.com/blog/ios-accessibility-resources-guide/?utm=swiftui-starter-project">iOS Accessibility Resource Guide 🔗</a>
 11. <a href="https://delasign.com/blog/xcode-debugging-in-console/?utm=swiftui-starter-project">Debugging recommendations for XCode & Swift (iOS) 🔗</a>
 12. <a href="https://delasign.com/blog/apple-metal-resources-guide/?utm=swiftui-starter-project">Apple Metal Resources Guide 🔗</a>
+13. <a href="https://www.delasign.com/blog/swiftui-what-are-property-wrappers-and-which-should-i-use/?utm=swiftui-starter-project">SwiftUI: What are property wrappers and which should I use? 🔗</a>
 
 # 📚 Tutorials
 
 ## Core
+
+### SwiftUI Property Wrappers
+1. <a href="https://www.delasign.com/blog/swiftui-what-are-property-wrappers-and-which-should-i-use/?utm=swiftui-starter-project">SwiftUI: What are property wrappers and which should I use? 🔗</a>
+2. <a href="https://delasign.com/blog/swiftui-state-property-wrapper/?utm=swiftui-starter-project">SwiftUI: Property Wrapper 🔗</a>
+3. <a href="https://www.delasign.com/blog/swiftui-binding-property-wrapper/?utm=swiftui-starter-project">SwiftUI: Binding Property Wrapper 🔗</a>
+4. <a href="https://www.delasign.com/blog/swiftui-environment-property-wrapper/?utm=swiftui-starter-project">SwiftUI: Environment Property Wrapper 🔗</a>
+5. <a href="https://www.delasign.com/blog/swiftui-bindable-property-wrapper/?utm=swiftui-starter-project">SwiftUI: Bindable Property Wrapper 🔗</a>
+6. <a href="https://www.delasign.com/blog/swiftui-appstorage-property-wrapper-2/?utm=swiftui-starter-project">SwiftUI: SceneStorage Property Wrapper 🔗</a>
+7. <a href="https://www.delasign.com/blog/swiftui-appstorage-property-wrapper/?utm=swiftui-starter-project">SwiftUI: AppStorage Property Wrapper 🔗</a>
+
+### SwiftUI Macros
+
+1. <a href="?utm=swiftui-starter-project">What is a Macro in Swift? 🔗</a>
+2. <a href="https://www.delasign.com/blog/swiftui-observable-macro/?utm=swiftui-starter-project">SwiftUI: Observable Macro 🔗</a>
+3. <a href="https://www.delasign.com/blog/swiftdata-model-macro/?utm=swiftui-starter-project">SwiftData: Model Macro 🔗</a>
+4. <a href="https://www.delasign.com/blog/how-to-create-a-complex-member-macro-in-swift/?utm=swiftui-starter-project">How to create a complex member Macro in Swift 🔗</a>
+
+### SwiftUI Protocols
+1. <a href="https://www.delasign.com/blog/what-is-a-protocol-in-swift/?utm=swiftui-starter-project">What is a Protocol in Swift? 🔗</a>
+2. <a href="https://www.delasign.com/blog/swiftui-identifiable-protocol/?utm=swiftui-starter-project">SwiftUI: Identifiable Protocol 🔗</a>
 
 ### Debugging
 1. <a href="https://delasign.com/blog/xcode-add-use-breakpoint/?utm=swiftui-starter-project">How to add and use a breakpoint in XCode 🔗</a>
@@ -43,3 +64,11 @@ Same as the above and select replace from the dropdown.
 
 ## Async / Await
 1. <a href="https://delasign.com/blog/swift-async-await/?utm=swiftui-starter-project">How to use async and await in Swift projects 🔗</a>
+
+## Previews
+1. <a href="https://www.delasign.com/blog/how-to-create-localizable-swiftui-previews/?utm=swiftui-starter-project">How to create localizable SwiftUI Previews 🔗</a>
+2. <a href="https://www.delasign.com/blog/how-to-create-multiple-swiftui-previews-within-a-single-view/?utm=swiftui-starter-project">How to create multiple SwiftUI previews within a single view 🔗</a>
+
+## Errors
+1. <a href="https://www.delasign.com/blog/how-to-resolve-the-declaration-name-is-not-covered-by-macro-error/?utm=swiftui-starter-project">How to resolve the "Declaration name is not covered by macro" error 🔗</a>
+2. <a href="https://www.delasign.com/blog/how-to-resolve-fatal-error-in-environment-objects-in-swift-previews/?utm=swiftui-starter-project">How to resolve "Fatal Error in Environment+Objects" in Swift Previews 🔗</a>
