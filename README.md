@@ -1,3 +1,14 @@
+# 🚀 Quick start
+1.  **Open Xcode**
+
+    Open this project in Xcode
+
+2.  **Resolve Package Versions**
+
+    In Xcode, Select File -> Packages -> Resolve Package Dependencies.
+
+    This is required to get the StringJSON macro working.
+    
 # 💻 Keyboard Shortcuts
 
 **Select Many lines**
@@ -13,6 +24,15 @@ Command + Shift + F
 
 ##Find and Replace
 Same as the above and select replace from the dropdown.
+
+# 📁 Projects
+
+You may be interested in our other open source projects.
+
+1. <a href="https://github.com/delasign/swift-starter-project">Swift (UIKit) 🔗</a>
+2. <a href="https://github.com/delasign/vision-os-starter-project">SwiftUI (VisionOS) 🔗</a>
+
+
 
 # 📰 Guides
 
