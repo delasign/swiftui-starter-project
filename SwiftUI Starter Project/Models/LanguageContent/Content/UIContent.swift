@@ -15,5 +15,6 @@ struct UIContent: Codable {
     @StringJSONChild
     struct Sample: Codable {
         let sampleString: String
+        let sampleBody: String
     }
 }

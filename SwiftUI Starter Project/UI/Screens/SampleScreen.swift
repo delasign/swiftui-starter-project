@@ -11,30 +11,37 @@ struct SampleScreen: View {
     @Environment (LanguageCoordinator.self) var languageCoordinator
         
     var body: some View {
-        VStack {
+        VStack(spacing: 10) {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text(languageCoordinator.currentContent.sample.sampleString)
+                Styleguide.Title(languageCoordinator.currentContent.sample.sampleString)
+                Styleguide.Body(languageCoordinator.currentContent.sample.sampleBody)
         }
         .padding()
     }
+    
+    
 }
 
 struct SampleScreen_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ForEach(LanguageCoordinator().availableLanguages.values.sorted(by: { "\($0)" < "\($1)" }), id: \.self) { language in
-                LocalizableSampleScreen(languageCode: language)
+                LocalizableSampleScreen(languageCode: language, colorScheme: .light)
+                LocalizableSampleScreen(languageCode: language, colorScheme: .dark)
             }
         }
     }
     
     struct LocalizableSampleScreen: View {
         let languageCode: String
+        let colorScheme: ColorScheme
+        
         var body: some View {SampleScreen()
                 .environment(LanguageCoordinator(languageCode: languageCode))
                 .environment(\.locale, .init(identifier: languageCode))
+                .preferredColorScheme(colorScheme)
         }
     }
 }

@@ -12,10 +12,12 @@ import SwiftUI
 struct Application: App {
     
     @State private var languageCoordinator = LanguageCoordinator()
+    let styleguide = Styleguide()
     
     var body: some Scene {
         WindowGroup {
-            SampleScreen().environment(languageCoordinator)
+            SampleScreen()
+                .environment(languageCoordinator)
         }
     }
 }
