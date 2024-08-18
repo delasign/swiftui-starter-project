@@ -28,20 +28,20 @@ struct SampleScreen_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ForEach(LanguageCoordinator().availableLanguages.values.sorted(by: { "\($0)" < "\($1)" }), id: \.self) { language in
-                LocalizableSampleScreen(languageCode: language, colorScheme: .light)
-                LocalizableSampleScreen(languageCode: language, colorScheme: .dark)
+                    ForEach(ColorScheme.allCases, id: \.self) { scheme in
+                    LocalizableSampleScreen(languageCode: language).preferredColorScheme(scheme)
+                }
             }
+            
         }
     }
     
     struct LocalizableSampleScreen: View {
         let languageCode: String
-        let colorScheme: ColorScheme
         
         var body: some View {SampleScreen()
                 .environment(LanguageCoordinator(languageCode: languageCode))
                 .environment(\.locale, .init(identifier: languageCode))
-                .preferredColorScheme(colorScheme)
         }
     }
 }
