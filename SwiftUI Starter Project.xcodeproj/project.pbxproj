@@ -157,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				F0996A222C724AA8002D0CF9 /* Styleguide.swift */,
+				F0996A282C725E45002D0CF9 /* Fonts.swift */,
+				F0996A2A2C725E5A002D0CF9 /* Colors.swift */,
 			);
 			path = Styleguide;
 			sourceTree = "<group>";
@@ -193,8 +195,6 @@
 			isa = PBXGroup;
 			children = (
 				F0A293882C6D29AC00135381 /* DebuggingIdentifiers.swift */,
-				F0996A282C725E45002D0CF9 /* Fonts.swift */,
-				F0996A2A2C725E5A002D0CF9 /* Colors.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
