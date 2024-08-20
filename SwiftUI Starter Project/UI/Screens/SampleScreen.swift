@@ -9,16 +9,28 @@ import SwiftUI
 
 struct SampleScreen: View {
     @Environment (LanguageCoordinator.self) var languageCoordinator
-        
+    
     var body: some View {
-        VStack(spacing: 10) {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-                Styleguide.Title(languageCoordinator.currentContent.sample.sampleString)
-                Styleguide.Body(languageCoordinator.currentContent.sample.sampleBody)
+        VStack {
+            HStack {
+                Styleguide.Title(languageCoordinator.currentContent.swiftDataTutorial.list)
+                Spacer()
+                SFSymbolButton(symbol: "plus") {
+                    let result = DataCoordinator.shared.addANewObject(id: String(UUID().uuidString.prefix(6)), number: DataCoordinator.shared.sampleSwiftDataModels.count, boolean: false)
+                    switch result {
+                    case .success(let data):
+                        debugPrint("Succesfully created model : \(data)")
+                        break
+                    case .failure(let error):
+                        debugPrint("Failed to create model : \(error)")
+                        break
+                    }
+                }
+            }.padding()
+            List(DataCoordinator.shared.sampleSwiftDataModels) { item in
+                SwiftDataListRow(item: item)
+            }
         }
-        .padding()
     }
     
     
@@ -42,6 +54,7 @@ struct SampleScreen_Previews: PreviewProvider {
         var body: some View {SampleScreen()
                 .environment(LanguageCoordinator(languageCode: languageCode))
                 .environment(\.locale, .init(identifier: languageCode))
+                .environment(DataCoordinator.shared)
         }
     }
 }

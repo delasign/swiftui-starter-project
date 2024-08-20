@@ -28,7 +28,7 @@ class Styleguide {
     }()
     
     // MARK: Colors
-    static func getBackgroundColor() -> UIColor {
+    static func getBackgroundColor() -> Color {
         if #available(iOS 13.0, *) {
             return isDarkMode ? Colors.black : Colors.white
         } else {
@@ -37,7 +37,7 @@ class Styleguide {
 
     }
 
-    static func getPrimaryColor() -> UIColor {
+    static func getPrimaryColor() -> Color {
         if #available(iOS 13.0, *) {
             return isDarkMode ? Colors.white : Colors.black
         } else {

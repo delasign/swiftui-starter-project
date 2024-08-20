@@ -6,10 +6,10 @@
 //
 
 import Foundation
-import UIKit
+import SwiftUI
 
 struct Colors {
-    static let white: UIColor = .white
-    static let black: UIColor = .black
+    static let white: Color = .white
+    static let black: Color = .black
 }
 

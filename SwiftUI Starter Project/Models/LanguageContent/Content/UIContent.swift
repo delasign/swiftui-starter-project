@@ -17,4 +17,9 @@ struct UIContent: Codable {
         let sampleString: String
         let sampleBody: String
     }
+    
+    @StringJSONChild
+    struct SwiftDataTutorial: Codable {
+        let list: String
+    }
 }

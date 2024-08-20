@@ -2,5 +2,8 @@
     "sample": {
         "sampleString": "Una muestra de un string",
         "sampleBody": "Una muestra mas pequeña."
+    },
+    "swiftDataTutorial": {
+        "list": "Lista"
     }
 }
