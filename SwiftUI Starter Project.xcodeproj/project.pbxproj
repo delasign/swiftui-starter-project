@@ -24,6 +24,7 @@
 		F0A293972C6D2C3800135381 /* LanguageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293962C6D2C3800135381 /* LanguageCoordinator.swift */; };
 		F0A293992C6D2C6800135381 /* LanguageCoordinator+Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293982C6D2C6800135381 /* LanguageCoordinator+Generate.swift */; };
 		F0A2939B2C6D2C6E00135381 /* LanguageCoordinator+CurrentLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2939A2C6D2C6E00135381 /* LanguageCoordinator+CurrentLanguage.swift */; };
+		F0FA5D802C74F66800DD460C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA5D7F2C74F66800DD460C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		F0A293962C6D2C3800135381 /* LanguageCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCoordinator.swift; sourceTree = "<group>"; };
 		F0A293982C6D2C6800135381 /* LanguageCoordinator+Generate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LanguageCoordinator+Generate.swift"; sourceTree = "<group>"; };
 		F0A2939A2C6D2C6E00135381 /* LanguageCoordinator+CurrentLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LanguageCoordinator+CurrentLanguage.swift"; sourceTree = "<group>"; };
+		F0FA5D7F2C74F66800DD460C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				F0A293882C6D29AC00135381 /* DebuggingIdentifiers.swift */,
+				F0FA5D7F2C74F66800DD460C /* Constants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				F0A293972C6D2C3800135381 /* LanguageCoordinator.swift in Sources */,
 				F0A293732C6D276800135381 /* SampleScreen.swift in Sources */,
 				F0A293712C6D276800135381 /* App.swift in Sources */,
+				F0FA5D802C74F66800DD460C /* Constants.swift in Sources */,
 				F0996A232C724AA8002D0CF9 /* Styleguide.swift in Sources */,
 				F0A293992C6D2C6800135381 /* LanguageCoordinator+Generate.swift in Sources */,
 				F0996A292C725E45002D0CF9 /* Fonts.swift in Sources */,
