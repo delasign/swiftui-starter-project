@@ -8,7 +8,6 @@
 import Foundation
 import SwiftUI
 
-
 class Styleguide {
     @Environment (\.colorScheme) static var colorScheme
     
