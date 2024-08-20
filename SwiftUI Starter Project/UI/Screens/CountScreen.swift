@@ -1,14 +1,14 @@
 //
-//  SampleScreen.swift
+//  CountScreen.swift
 //  SwiftUI Starter Project
 //
-//  Created by Oscar de la Hera Gomez on 8/14/24.
+//  Created by Oscar de la Hera Gomez on 8/20/24.
 //
 
 import SwiftUI
 import SwiftData
 
-struct SampleScreen: View {
+struct CountScreen: View {
     @Environment (DataCoordinator.self) var dataCoordinator
     @Environment (LanguageCoordinator.self) var languageCoordinator
     @Environment(\.modelContext) private var context
@@ -18,27 +18,22 @@ struct SampleScreen: View {
     var body: some View {
         VStack {
             HStack {
-                Styleguide.Title(languageCoordinator.currentContent.swiftDataTutorial.list)
+                Styleguide.Title(languageCoordinator.currentContent.swiftDataTutorial.countScreenTitle)
                 Spacer()
-                SFSymbolButton(symbol: "plus") {
-                    context.insert(SampleSwiftDataModel(id: String(UUID().uuidString.prefix(6)), number: data.count, boolean: false, date: Date.now))
-                }
-                SFSymbolButton(symbol: "arrow.forward") {
-                    dataCoordinator.experienceState = .count
+                SFSymbolButton(symbol: "arrow.backward") {
+                    dataCoordinator.experienceState = .list
                 }
             }.padding()
-            List(data) { item in
-                SwiftDataListRow(item: item) {
-                    context.delete(item)
-                }
-            }
+            Spacer()
+            Styleguide.Title("\(languageCoordinator.currentContent.swiftDataTutorial.count) \(data.count)")
+            Spacer()
         }
     }
     
     
 }
 
-struct SampleScreen_Previews: PreviewProvider {
+struct CountScreen_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ForEach(LanguageCoordinator().availableLanguages.values.sorted(by: { "\($0)" < "\($1)" }), id: \.self) { language in
@@ -53,7 +48,7 @@ struct SampleScreen_Previews: PreviewProvider {
     struct LocalizableScreen: View {
         let languageCode: String
         
-        var body: some View {SampleScreen()
+        var body: some View {CountScreen()
                 .environment(LanguageCoordinator(languageCode: languageCode))
                 .environment(\.locale, .init(identifier: languageCode))
                 .environment(DataCoordinator())

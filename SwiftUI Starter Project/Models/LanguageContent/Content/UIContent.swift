@@ -21,5 +21,7 @@ struct UIContent: Codable {
     @StringJSONChild
     struct SwiftDataTutorial: Codable {
         let list: String
+        let countScreenTitle: String
+        let count: String
     }
 }

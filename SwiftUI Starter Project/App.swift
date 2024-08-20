@@ -11,13 +11,24 @@ import SwiftUI
 @main
 struct Application: App {
     
+    private var dataCoordinator = DataCoordinator()
     @State private var languageCoordinator = LanguageCoordinator()
     let styleguide = Styleguide()
     
     var body: some Scene {
         WindowGroup {
-            SampleScreen()
-                .environment(languageCoordinator)
+            switch dataCoordinator.experienceState {
+            case .list:
+                SampleScreen()
+                    .environment(languageCoordinator)
+                    .environment(dataCoordinator)
+                    .modelContainer(for: SampleSwiftDataModel.self)
+            case .count:
+                CountScreen()
+                    .environment(languageCoordinator)
+                    .environment(dataCoordinator)
+                    .modelContainer(for: SampleSwiftDataModel.self)
+            }
         }
     }
 }

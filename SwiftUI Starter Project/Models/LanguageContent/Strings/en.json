@@ -4,6 +4,8 @@
         "sampleBody": "Just a body string."
     },
     "swiftDataTutorial": {
-        "list": "List"
+        "list": "List",
+        "countScreenTitle": "Data Count",
+        "count": "Count:",
     }
 }

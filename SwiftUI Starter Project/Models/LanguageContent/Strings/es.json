@@ -4,6 +4,8 @@
         "sampleBody": "Una muestra mas pequeña."
     },
     "swiftDataTutorial": {
-        "list": "Lista"
+        "list": "Lista",
+        "countScreenTitle": "Cantidad de Datos",
+        "count": "Datos registrados:"
     }
 }

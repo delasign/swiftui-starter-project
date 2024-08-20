@@ -6,32 +6,34 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct SwiftDataListRow: View {
     
-    @State var item: SampleSwiftDataModel
-    
+    @Bindable var item: SampleSwiftDataModel
+    let action: () -> Void
     var body: some View {
         HStack {
             Text("\(item.number)")
             Toggle(item.id, isOn: $item.boolean)
             Spacer(minLength: kPadding)
             SFSymbolButton(symbol: "trash", action: {
-                let result = DataCoordinator.shared.deleteAnObject(id: item.id)
-                switch result {
-                case .success:
-                    debugPrint("Succesfully deleted data : \(item.id)")
-                    break
-                case .failure(let error):
-                    debugPrint("Failed to create model : \(error)")
-                    break
-                }
-            }).buttonStyle(PlainButtonStyle())
+                action()
+            })
+            // Please note that the PlainButtonStyle is required in order for the list to trigger the button as expected.
+            .buttonStyle(PlainButtonStyle())
         }
     }
 }
 
-// Please note that you must use the coordinator instance to preview swiftdata.
+
+// Please note that to preview the data you must create a mock container that holds the data.
 #Preview {
-    SwiftDataListRow(item: DataCoordinator().sampleSwiftDataModels[0])
+    let container = try! ModelContainer(for: SampleSwiftDataModel.self, configurations: ModelConfiguration(isStoredInMemoryOnly: true))
+    
+    let mockItem = SampleSwiftDataModel(id: String(UUID().uuidString.prefix(6)), number: 0, boolean: false, date: Date.now)
+
+    container.mainContext.insert(mockItem)
+
+    return SwiftDataListRow(item: mockItem) {}
 }

@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F02193E42C75079400EA3327 /* CountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02193E32C75079400EA3327 /* CountScreen.swift */; };
+		F02193E62C7507B200EA3327 /* DataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02193E52C7507B200EA3327 /* DataCoordinator.swift */; };
+		F02193E82C7507D000EA3327 /* ExperienceStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02193E72C7507D000EA3327 /* ExperienceStates.swift */; };
 		F0996A212C6E4F01002D0CF9 /* StringJSON in Frameworks */ = {isa = PBXBuildFile; productRef = F0996A202C6E4F01002D0CF9 /* StringJSON */; };
 		F0996A232C724AA8002D0CF9 /* Styleguide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0996A222C724AA8002D0CF9 /* Styleguide.swift */; };
 		F0996A272C724AD6002D0CF9 /* PrintSystemFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0996A262C724AD6002D0CF9 /* PrintSystemFonts.swift */; };
 		F0996A292C725E45002D0CF9 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0996A282C725E45002D0CF9 /* Fonts.swift */; };
 		F0996A2B2C725E5A002D0CF9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0996A2A2C725E5A002D0CF9 /* Colors.swift */; };
 		F0996A2E2C74E19D002D0CF9 /* SampleSwiftDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0996A2D2C74E19D002D0CF9 /* SampleSwiftDataModel.swift */; };
-		F0996A302C74E1F0002D0CF9 /* DataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0996A2F2C74E1F0002D0CF9 /* DataCoordinator.swift */; };
 		F0996A332C74E31E002D0CF9 /* SwiftDataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0996A322C74E31E002D0CF9 /* SwiftDataError.swift */; };
-		F0996A352C74E3DF002D0CF9 /* DataCoordinator+SwiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0996A342C74E3DF002D0CF9 /* DataCoordinator+SwiftData.swift */; };
 		F0996A372C74E76A002D0CF9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0996A362C74E76A002D0CF9 /* Constants.swift */; };
 		F0996A3A2C74E830002D0CF9 /* SFSymbolButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0996A392C74E830002D0CF9 /* SFSymbolButton.swift */; };
 		F0A293712C6D276800135381 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293702C6D276800135381 /* App.swift */; };
@@ -34,14 +35,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F02193E32C75079400EA3327 /* CountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountScreen.swift; sourceTree = "<group>"; };
+		F02193E52C7507B200EA3327 /* DataCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCoordinator.swift; sourceTree = "<group>"; };
+		F02193E72C7507D000EA3327 /* ExperienceStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceStates.swift; sourceTree = "<group>"; };
 		F0996A222C724AA8002D0CF9 /* Styleguide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styleguide.swift; sourceTree = "<group>"; };
 		F0996A262C724AD6002D0CF9 /* PrintSystemFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintSystemFonts.swift; sourceTree = "<group>"; };
 		F0996A282C725E45002D0CF9 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		F0996A2A2C725E5A002D0CF9 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		F0996A2D2C74E19D002D0CF9 /* SampleSwiftDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSwiftDataModel.swift; sourceTree = "<group>"; };
-		F0996A2F2C74E1F0002D0CF9 /* DataCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCoordinator.swift; sourceTree = "<group>"; };
 		F0996A322C74E31E002D0CF9 /* SwiftDataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataError.swift; sourceTree = "<group>"; };
-		F0996A342C74E3DF002D0CF9 /* DataCoordinator+SwiftData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataCoordinator+SwiftData.swift"; sourceTree = "<group>"; };
 		F0996A362C74E76A002D0CF9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F0996A392C74E830002D0CF9 /* SFSymbolButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolButton.swift; sourceTree = "<group>"; };
 		F0A2936D2C6D276800135381 /* SwiftUI Starter Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Starter Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				F0A293722C6D276800135381 /* SampleScreen.swift */,
+				F02193E32C75079400EA3327 /* CountScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -189,8 +192,7 @@
 		F0A293822C6D295C00135381 /* DataCoordinator */ = {
 			isa = PBXGroup;
 			children = (
-				F0996A2F2C74E1F0002D0CF9 /* DataCoordinator.swift */,
-				F0996A342C74E3DF002D0CF9 /* DataCoordinator+SwiftData.swift */,
+				F02193E52C7507B200EA3327 /* DataCoordinator.swift */,
 			);
 			path = DataCoordinator;
 			sourceTree = "<group>";
@@ -240,6 +242,7 @@
 			children = (
 				F0A293882C6D29AC00135381 /* DebuggingIdentifiers.swift */,
 				F0996A362C74E76A002D0CF9 /* Constants.swift */,
+				F02193E72C7507D000EA3327 /* ExperienceStates.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -349,18 +352,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0A293892C6D29AC00135381 /* DebuggingIdentifiers.swift in Sources */,
+				F02193E42C75079400EA3327 /* CountScreen.swift in Sources */,
 				F0996A372C74E76A002D0CF9 /* Constants.swift in Sources */,
 				F0996A2B2C725E5A002D0CF9 /* Colors.swift in Sources */,
 				F0996A2E2C74E19D002D0CF9 /* SampleSwiftDataModel.swift in Sources */,
+				F02193E82C7507D000EA3327 /* ExperienceStates.swift in Sources */,
 				F0996A272C724AD6002D0CF9 /* PrintSystemFonts.swift in Sources */,
-				F0996A302C74E1F0002D0CF9 /* DataCoordinator.swift in Sources */,
 				F0A2938F2C6D29F500135381 /* Language.swift in Sources */,
 				F0A293972C6D2C3800135381 /* LanguageCoordinator.swift in Sources */,
+				F02193E62C7507B200EA3327 /* DataCoordinator.swift in Sources */,
 				F0A293732C6D276800135381 /* SampleScreen.swift in Sources */,
 				F0A293712C6D276800135381 /* App.swift in Sources */,
 				F0FA5D7E2C74EB1100DD460C /* SwiftDataListRow.swift in Sources */,
 				F0996A232C724AA8002D0CF9 /* Styleguide.swift in Sources */,
-				F0996A352C74E3DF002D0CF9 /* DataCoordinator+SwiftData.swift in Sources */,
 				F0A293992C6D2C6800135381 /* LanguageCoordinator+Generate.swift in Sources */,
 				F0996A292C725E45002D0CF9 /* Fonts.swift in Sources */,
 				F0996A3A2C74E830002D0CF9 /* SFSymbolButton.swift in Sources */,
