@@ -12,7 +12,7 @@ import SwiftData
 final class SampleSwiftDataModel: Identifiable {
     @Attribute(.unique) var id: String
     var number: Int
-    @Attribute var boolean: Bool
+    var boolean: Bool
     var date: Date
     
     init(id: String, number: Int, boolean: Bool, date: Date) {
