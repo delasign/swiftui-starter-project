@@ -49,6 +49,7 @@ You may be interested in our other open source projects.
 11. <a href="https://delasign.com/blog/xcode-debugging-in-console/?utm=swiftui-starter-project">Debugging recommendations for XCode & Swift (iOS) 🔗</a>
 12. <a href="https://delasign.com/blog/apple-metal-resources-guide/?utm=swiftui-starter-project">Apple Metal Resources Guide 🔗</a>
 13. <a href="https://www.delasign.com/blog/swiftui-what-are-property-wrappers-and-which-should-i-use/?utm=swiftui-starter-project">SwiftUI: What are property wrappers and which should I use? 🔗</a>
+14. <a href="https://delasign.com/blog/swiftui-swiftdata-quick-start-guide/?utm=swiftui-starter-project">SwiftUI SwiftData Quick Start Guide 🔗</a>
 
 # 📚 Tutorials
 
@@ -82,12 +83,21 @@ You may be interested in our other open source projects.
 5. <a href="https://delasign.com/blog/xcode-instruments-profile-cpu/?utm=swiftui-starter-project">How to profile CPU usage using Instruments in XCode 🔗</a>
 6. <a href="https://delasign.com/blog/xcode-instruments-diagnose-cpu-memory/?utm=swiftui-starter-project">How to diagnose a hang, severe hang or freeze in XCode 🔗</a>
 
+### Design Systems
+1. <a href="https://delasign.com/blog/how-to-create-a-styleguide-in-swiftui/?utm=swiftui-starter-project">How to create a Styleguide in SwiftUI 🔗</a>
+2. <a href="https://delasign.com/blog/can-i-override-the-swiftui-app-fonts-and-sizes/?utm=swiftui-starter-project">Can I override the SwiftUI App fonts and sizes? 🔗</a>
+
+### Data
+1. <a href="https://delasign.com/blog/swiftui-swiftdata-quick-start-guide/?utm=swiftui-starter-project">SwiftUI SwiftData Quick Start Guide 🔗</a>
+
 ## Async / Await
 1. <a href="https://delasign.com/blog/swift-async-await/?utm=swiftui-starter-project">How to use async and await in Swift projects 🔗</a>
 
 ## Previews
 1. <a href="https://www.delasign.com/blog/how-to-create-localizable-swiftui-previews/?utm=swiftui-starter-project">How to create localizable SwiftUI Previews 🔗</a>
 2. <a href="https://www.delasign.com/blog/how-to-create-multiple-swiftui-previews-within-a-single-view/?utm=swiftui-starter-project">How to create multiple SwiftUI previews within a single view 🔗</a>
+3. <a href="https://delasign.com/blog/how-to-preview-light-and-dark-mode-in-swift-previews/?utm=swiftui-starter-project">How to preview light and dark mode in Swift Previews 🔗</a>
+4. <a href="https://delasign.com/blog/how-to-preview-swiftdata/?utm=swiftui-starter-project">How to preview SwiftData in Swift Previews 🔗</a>
 
 ## Errors
 1. <a href="https://www.delasign.com/blog/how-to-resolve-the-declaration-name-is-not-covered-by-macro-error/?utm=swiftui-starter-project">How to resolve the "Declaration name is not covered by macro" error 🔗</a>
