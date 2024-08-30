@@ -76,6 +76,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F005E65D2C8244C000C2A5F4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		F0996A242C724ABA002D0CF9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,17 +153,10 @@
 		F0A2937F2C6D293F00135381 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				F0A293802C6D294A00135381 /* Components */,
+				F005E65D2C8244C000C2A5F4 /* Components */,
 				F0A2937E2C6D293A00135381 /* Screens */,
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		F0A293802C6D294A00135381 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
 			sourceTree = "<group>";
 		};
 		F0A293812C6D295800135381 /* Coordinators */ = {
