@@ -11,16 +11,31 @@ struct SampleScreen: View {
     @Environment (LanguageCoordinator.self) var languageCoordinator
         
     var body: some View {
-        VStack(spacing: 10) {
+        GeometryReader { geometry in
+            let frame = geometry.size
+            VStack(spacing: 10) {
+                topView
+                    .frame(width: frame.width, height: frame.height*0.4)
+                    .background(.red)
+                bottomView
+                    .frame(width: frame.width, height: frame.height*0.6)
+                    .background(.blue)
+            }
+        }.padding()
+    }
+    
+    var topView: some View {
+        HStack(spacing: 10) {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-                Styleguide.Title(languageCoordinator.currentContent.sample.sampleString)
-                Styleguide.Body(languageCoordinator.currentContent.sample.sampleBody)
+            Styleguide.Title(languageCoordinator.currentContent.sample.sampleString)
         }
-        .padding()
     }
     
+    var bottomView: some View {
+        Styleguide.Body(languageCoordinator.currentContent.sample.sampleBody)
+    }
     
 }
 
