@@ -16,6 +16,8 @@ class LanguageCoordinator {
     static let contentPrefix = "ui_content_"
     
     let languageCode: String
+    
+    var sampleBooleanToDemonstrateBindable: Bool = false
 
     var currentLanguage: Language = .english {
         didSet {

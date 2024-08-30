@@ -11,13 +11,12 @@ struct SampleScreen: View {
     @Environment (LanguageCoordinator.self) var languageCoordinator
         
     var body: some View {
-        VStack(spacing: 10) {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-                Styleguide.Title(languageCoordinator.currentContent.sample.sampleString)
-                Styleguide.Body(languageCoordinator.currentContent.sample.sampleBody)
-        }
+        // Create a Bindable referenece to the environment object
+        @Bindable var langCoord = languageCoordinator
+        // Apply the Bindable
+        Toggle(isOn: $langCoord.sampleBooleanToDemonstrateBindable, label: {
+            Text("Toggle Environment Variable")
+        })
         .padding()
     }
     
