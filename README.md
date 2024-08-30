@@ -55,6 +55,14 @@ You may be interested in our other open source projects.
 
 ## Core
 
+### SwiftUI User Interfaces
+1. <a href="https://www.delasign.com/blog/how-to-make-an-entire-view-clickable-in-swiftui/?utm=swiftui-starter-project">How to make an entire view clickable in SwiftUI 🔗</a>
+2. <a href="https://www.delasign.com/blog/how-to-set-the-size-of-an-image-in-swiftui/?utm=swiftui-starter-project">How to set the size of an image in SwiftUI 🔗</a>
+3. <a href="https://www.delasign.com/blog/how-to-set-a-frame-proportional-to-a-window-or-screen-in-swiftui/?utm=swiftui-starter-project">How to set a frame proportional to a window or screen in SwiftUI 🔗</a>
+4. <a href="https://www.delasign.com/blog/how-to-set-the-frame-of-a-view-to-fill-its-parents-width-and-height/?utm=swiftui-starter-project"> 🔗</a>
+5. <a href="?utm=swiftui-starter-project">How to set the frame of a view to fill its parents width and height     🔗</a>
+6. <a href="https://www.delasign.com/blog/how-to-apply-safeareainsets-in-swiftui/?utm=swiftui-starter-project">How to apply SafeAreaInsets in SwiftUI 🔗</a>
+
 ### SwiftUI Property Wrappers
 1. <a href="https://www.delasign.com/blog/swiftui-what-are-property-wrappers-and-which-should-i-use/?utm=swiftui-starter-project">SwiftUI: What are property wrappers and which should I use? 🔗</a>
 2. <a href="https://delasign.com/blog/swiftui-state-property-wrapper/?utm=swiftui-starter-project">SwiftUI: Property Wrapper 🔗</a>
@@ -63,6 +71,7 @@ You may be interested in our other open source projects.
 5. <a href="https://www.delasign.com/blog/swiftui-bindable-property-wrapper/?utm=swiftui-starter-project">SwiftUI: Bindable Property Wrapper 🔗</a>
 6. <a href="https://www.delasign.com/blog/swiftui-appstorage-property-wrapper-2/?utm=swiftui-starter-project">SwiftUI: SceneStorage Property Wrapper 🔗</a>
 7. <a href="https://www.delasign.com/blog/swiftui-appstorage-property-wrapper/?utm=swiftui-starter-project">SwiftUI: AppStorage Property Wrapper 🔗</a>
+8. <a href="https://www.delasign.com/blog/how-to-bind-a-variable-from-an-environment-object-in-swiftui/?utm=swiftui-starter-project">How to bind a variable from an @Environment object in SwiftUI 🔗</a>
 
 ### SwiftUI Macros
 
@@ -87,7 +96,7 @@ You may be interested in our other open source projects.
 1. <a href="https://delasign.com/blog/how-to-create-a-styleguide-in-swiftui/?utm=swiftui-starter-project">How to create a Styleguide in SwiftUI 🔗</a>
 2. <a href="https://delasign.com/blog/can-i-override-the-swiftui-app-fonts-and-sizes/?utm=swiftui-starter-project">Can I override the SwiftUI App fonts and sizes? 🔗</a>
 
-### Data
+### SwiftData
 1. <a href="https://delasign.com/blog/swiftui-swiftdata-quick-start-guide/?utm=swiftui-starter-project">SwiftUI SwiftData Quick Start Guide 🔗</a>
 
 ## Async / Await
