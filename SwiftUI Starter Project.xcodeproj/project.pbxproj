@@ -27,6 +27,10 @@
 		F0CAC64F2C82233900A65C71 /* isSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC64E2C82233900A65C71 /* isSimulator.swift */; };
 		F0CAC65A2C8224BF00A65C71 /* JSONToData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC6592C8224BF00A65C71 /* JSONToData.swift */; };
 		F0CAC65C2C8224C600A65C71 /* DataToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC65B2C8224C600A65C71 /* DataToJSON.swift */; };
+		F0CAC65F2C82250300A65C71 /* openURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC65E2C82250300A65C71 /* openURL.swift */; };
+		F0CAC6612C82251900A65C71 /* openSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC6602C82251900A65C71 /* openSettings.swift */; };
+		F0CAC6642C82254B00A65C71 /* AppReleaseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC6632C82254B00A65C71 /* AppReleaseInfo.swift */; };
+		F0CAC66F2C8225D700A65C71 /* generateRandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC66E2C8225D700A65C71 /* generateRandomColor.swift */; };
 		F0FA5D802C74F66800DD460C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA5D7F2C74F66800DD460C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +55,10 @@
 		F0CAC64E2C82233900A65C71 /* isSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSimulator.swift; sourceTree = "<group>"; };
 		F0CAC6592C8224BF00A65C71 /* JSONToData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONToData.swift; sourceTree = "<group>"; };
 		F0CAC65B2C8224C600A65C71 /* DataToJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataToJSON.swift; sourceTree = "<group>"; };
+		F0CAC65E2C82250300A65C71 /* openURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openURL.swift; sourceTree = "<group>"; };
+		F0CAC6602C82251900A65C71 /* openSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openSettings.swift; sourceTree = "<group>"; };
+		F0CAC6632C82254B00A65C71 /* AppReleaseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReleaseInfo.swift; sourceTree = "<group>"; };
+		F0CAC66E2C8225D700A65C71 /* generateRandomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateRandomColor.swift; sourceTree = "<group>"; };
 		F0FA5D7F2C74F66800DD460C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +77,9 @@
 		F0996A242C724ABA002D0CF9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				F0CAC66D2C8225CE00A65C71 /* Color */,
+				F0CAC6622C82254400A65C71 /* Bundle */,
+				F0CAC65D2C8224F900A65C71 /* UIApplication */,
 				F0CAC6582C8224B500A65C71 /* JSON */,
 				F0CAC64D2C82233000A65C71 /* System */,
 				F0996A252C724AD0002D0CF9 /* Fonts */,
@@ -245,6 +256,31 @@
 			path = JSON;
 			sourceTree = "<group>";
 		};
+		F0CAC65D2C8224F900A65C71 /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				F0CAC65E2C82250300A65C71 /* openURL.swift */,
+				F0CAC6602C82251900A65C71 /* openSettings.swift */,
+			);
+			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		F0CAC6622C82254400A65C71 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				F0CAC6632C82254B00A65C71 /* AppReleaseInfo.swift */,
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+		F0CAC66D2C8225CE00A65C71 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				F0CAC66E2C8225D700A65C71 /* generateRandomColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -327,8 +363,10 @@
 				F0A293892C6D29AC00135381 /* DebuggingIdentifiers.swift in Sources */,
 				F0CAC65C2C8224C600A65C71 /* DataToJSON.swift in Sources */,
 				F0996A2B2C725E5A002D0CF9 /* Colors.swift in Sources */,
+				F0CAC6612C82251900A65C71 /* openSettings.swift in Sources */,
 				F0996A272C724AD6002D0CF9 /* PrintSystemFonts.swift in Sources */,
 				F0A2938F2C6D29F500135381 /* Language.swift in Sources */,
+				F0CAC66F2C8225D700A65C71 /* generateRandomColor.swift in Sources */,
 				F0A293972C6D2C3800135381 /* LanguageCoordinator.swift in Sources */,
 				F0A293732C6D276800135381 /* SampleScreen.swift in Sources */,
 				F0A293712C6D276800135381 /* App.swift in Sources */,
@@ -337,8 +375,10 @@
 				F0996A232C724AA8002D0CF9 /* Styleguide.swift in Sources */,
 				F0A293992C6D2C6800135381 /* LanguageCoordinator+Generate.swift in Sources */,
 				F0996A292C725E45002D0CF9 /* Fonts.swift in Sources */,
+				F0CAC65F2C82250300A65C71 /* openURL.swift in Sources */,
 				F0A2939B2C6D2C6E00135381 /* LanguageCoordinator+CurrentLanguage.swift in Sources */,
 				F0A2938D2C6D29EF00135381 /* UIContent.swift in Sources */,
+				F0CAC6642C82254B00A65C71 /* AppReleaseInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
