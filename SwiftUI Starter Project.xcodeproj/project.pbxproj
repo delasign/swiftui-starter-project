@@ -32,6 +32,8 @@
 		F0CAC6642C82254B00A65C71 /* AppReleaseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC6632C82254B00A65C71 /* AppReleaseInfo.swift */; };
 		F0CAC66F2C8225D700A65C71 /* generateRandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC66E2C8225D700A65C71 /* generateRandomColor.swift */; };
 		F0CAC67B2C8232B800A65C71 /* isXCodePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC67A2C8232B800A65C71 /* isXCodePreview.swift */; };
+		F0CAC67E2C82390200A65C71 /* UnderlyingTappableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC67D2C82390200A65C71 /* UnderlyingTappableView.swift */; };
+		F0CAC6802C82395F00A65C71 /* OverlayingNonTappableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC67F2C82395F00A65C71 /* OverlayingNonTappableView.swift */; };
 		F0FA5D802C74F66800DD460C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA5D7F2C74F66800DD460C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +63,8 @@
 		F0CAC6632C82254B00A65C71 /* AppReleaseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReleaseInfo.swift; sourceTree = "<group>"; };
 		F0CAC66E2C8225D700A65C71 /* generateRandomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateRandomColor.swift; sourceTree = "<group>"; };
 		F0CAC67A2C8232B800A65C71 /* isXCodePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isXCodePreview.swift; sourceTree = "<group>"; };
+		F0CAC67D2C82390200A65C71 /* UnderlyingTappableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlyingTappableView.swift; sourceTree = "<group>"; };
+		F0CAC67F2C82395F00A65C71 /* OverlayingNonTappableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayingNonTappableView.swift; sourceTree = "<group>"; };
 		F0FA5D7F2C74F66800DD460C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +159,7 @@
 		F0A293802C6D294A00135381 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				F0CAC67C2C8238F000A65C71 /* Views */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -284,6 +289,15 @@
 			path = Color;
 			sourceTree = "<group>";
 		};
+		F0CAC67C2C8238F000A65C71 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0CAC67D2C82390200A65C71 /* UnderlyingTappableView.swift */,
+				F0CAC67F2C82395F00A65C71 /* OverlayingNonTappableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -370,6 +384,7 @@
 				F0996A272C724AD6002D0CF9 /* PrintSystemFonts.swift in Sources */,
 				F0A2938F2C6D29F500135381 /* Language.swift in Sources */,
 				F0CAC66F2C8225D700A65C71 /* generateRandomColor.swift in Sources */,
+				F0CAC6802C82395F00A65C71 /* OverlayingNonTappableView.swift in Sources */,
 				F0A293972C6D2C3800135381 /* LanguageCoordinator.swift in Sources */,
 				F0A293732C6D276800135381 /* SampleScreen.swift in Sources */,
 				F0A293712C6D276800135381 /* App.swift in Sources */,
@@ -378,6 +393,7 @@
 				F0996A232C724AA8002D0CF9 /* Styleguide.swift in Sources */,
 				F0A293992C6D2C6800135381 /* LanguageCoordinator+Generate.swift in Sources */,
 				F0CAC67B2C8232B800A65C71 /* isXCodePreview.swift in Sources */,
+				F0CAC67E2C82390200A65C71 /* UnderlyingTappableView.swift in Sources */,
 				F0996A292C725E45002D0CF9 /* Fonts.swift in Sources */,
 				F0CAC65F2C82250300A65C71 /* openURL.swift in Sources */,
 				F0A2939B2C6D2C6E00135381 /* LanguageCoordinator+CurrentLanguage.swift in Sources */,
