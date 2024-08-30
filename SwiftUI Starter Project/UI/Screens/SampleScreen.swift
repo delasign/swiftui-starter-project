@@ -11,7 +11,7 @@ struct SampleScreen: View {
     @Environment (LanguageCoordinator.self) var languageCoordinator
         
     var body: some View {
-        fillWidth
+        fillWidthAndHeight
     }
     
     var noFill: some View {
@@ -22,7 +22,6 @@ struct SampleScreen: View {
                 Styleguide.Title(languageCoordinator.currentContent.sample.sampleString)
                 Styleguide.Body(languageCoordinator.currentContent.sample.sampleBody)
         }
-        .padding()
         .background(.red)
     }
     
@@ -34,7 +33,6 @@ struct SampleScreen: View {
                 Styleguide.Title(languageCoordinator.currentContent.sample.sampleString)
                 Styleguide.Body(languageCoordinator.currentContent.sample.sampleBody)
         }
-        .padding()
         .frame(maxWidth: .infinity)
         // Color must be at the end if you want it to occupy the entire area.
         // Move above the frame to see it occupy only the content.
@@ -49,7 +47,7 @@ struct SampleScreen: View {
                 Styleguide.Title(languageCoordinator.currentContent.sample.sampleString)
                 Styleguide.Body(languageCoordinator.currentContent.sample.sampleBody)
         }
-        .padding()
+        
         .frame(maxHeight: .infinity)
         // Color must be at the end if you want it to occupy the entire area.
         // Move above the frame to see it occupy only the content.
@@ -64,11 +62,11 @@ struct SampleScreen: View {
                 Styleguide.Title(languageCoordinator.currentContent.sample.sampleString)
                 Styleguide.Body(languageCoordinator.currentContent.sample.sampleBody)
         }
-        .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         // Color must be at the end if you want it to occupy the entire area.
         // Move above the frame to see it occupy only the content.
         .background(.red)
+        
     }
     
 }
@@ -91,6 +89,8 @@ struct SampleScreen_Previews: PreviewProvider {
         var body: some View {SampleScreen()
                 .environment(LanguageCoordinator(languageCode: languageCode))
                 .environment(\.locale, .init(identifier: languageCode))
+                // Remove "Padding" to remove safe area insets.
+                .padding()
         }
     }
 }
