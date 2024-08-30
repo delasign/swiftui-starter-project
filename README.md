@@ -94,15 +94,16 @@ You may be interested in our other open source projects.
 1. <a href="https://delasign.com/blog/swift-async-await/?utm=swiftui-starter-project">How to use async and await in Swift projects 🔗</a>
 
 ## Previews
-1. <a href="https://www.delasign.com/blog/how-to-create-localizable-swiftui-previews/?utm=swiftui-starter-project">How to create localizable SwiftUI Previews 🔗</a>
-2. <a href="https://www.delasign.com/blog/how-to-create-multiple-swiftui-previews-within-a-single-view/?utm=swiftui-starter-project">How to create multiple SwiftUI previews within a single view 🔗</a>
-3. <a href="https://delasign.com/blog/how-to-preview-light-and-dark-mode-in-swift-previews/?utm=swiftui-starter-project">How to preview light and dark mode in Swift Previews 🔗</a>
-4. <a href="https://delasign.com/blog/how-to-preview-swiftdata/?utm=swiftui-starter-project">How to preview SwiftData in Swift Previews 🔗</a>
-5. <a href="https://www.delasign.com/blog/how-to-show-or-hide-the-swift-preview-canvas/?utm=swiftui-starter-project">How to show or hide the Swift Preview Canvas 🔗</a>
+1. <a href="https://www.delasign.com/blog/how-to-create-localizable-swiftui-previews/?utm=swiftui-starter-project">How to create localizable XCode Previews 🔗</a>
+2. <a href="https://www.delasign.com/blog/how-to-create-multiple-swiftui-previews-within-a-single-view/?utm=swiftui-starter-project">How to create multiple XCode previews within a single view 🔗</a>
+3. <a href="https://delasign.com/blog/how-to-preview-light-and-dark-mode-in-swift-previews/?utm=swiftui-starter-project">How to preview light and dark mode in XCode Previews 🔗</a>
+4. <a href="https://delasign.com/blog/how-to-preview-swiftdata/?utm=swiftui-starter-project">How to preview SwiftData in XCode Previews 🔗</a>
+5. <a href="https://www.delasign.com/blog/how-to-show-or-hide-the-swift-preview-canvas/?utm=swiftui-starter-project">How to show or hide the XCode Preview Canvas 🔗</a>
+6. <a href="https://www.delasign.com/blog/how-to-check-if-code-is-running-in-an-xcode-preview-in-swift/?utm=swiftui-starter-project">How to check if code is running in an XCode Preview in Swift 🔗</a> 
 
 ## Errors
 1. <a href="https://www.delasign.com/blog/how-to-resolve-the-declaration-name-is-not-covered-by-macro-error/?utm=swiftui-starter-project">How to resolve the "Declaration name is not covered by macro" error 🔗</a>
-2. <a href="https://www.delasign.com/blog/how-to-resolve-fatal-error-in-environment-objects-in-swift-previews/?utm=swiftui-starter-project">How to resolve "Fatal Error in Environment+Objects" in Swift Previews 🔗</a>
+2. <a href="https://www.delasign.com/blog/how-to-resolve-fatal-error-in-environment-objects-in-swift-previews/?utm=swiftui-starter-project">How to resolve "Fatal Error in Environment+Objects" in XCode Previews 🔗</a>
 
 ## Other
 

@@ -31,6 +31,7 @@
 		F0CAC6612C82251900A65C71 /* openSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC6602C82251900A65C71 /* openSettings.swift */; };
 		F0CAC6642C82254B00A65C71 /* AppReleaseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC6632C82254B00A65C71 /* AppReleaseInfo.swift */; };
 		F0CAC66F2C8225D700A65C71 /* generateRandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC66E2C8225D700A65C71 /* generateRandomColor.swift */; };
+		F0CAC67B2C8232B800A65C71 /* isXCodePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC67A2C8232B800A65C71 /* isXCodePreview.swift */; };
 		F0FA5D802C74F66800DD460C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA5D7F2C74F66800DD460C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		F0CAC6602C82251900A65C71 /* openSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openSettings.swift; sourceTree = "<group>"; };
 		F0CAC6632C82254B00A65C71 /* AppReleaseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReleaseInfo.swift; sourceTree = "<group>"; };
 		F0CAC66E2C8225D700A65C71 /* generateRandomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateRandomColor.swift; sourceTree = "<group>"; };
+		F0CAC67A2C8232B800A65C71 /* isXCodePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isXCodePreview.swift; sourceTree = "<group>"; };
 		F0FA5D7F2C74F66800DD460C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -243,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				F0CAC64E2C82233900A65C71 /* isSimulator.swift */,
+				F0CAC67A2C8232B800A65C71 /* isXCodePreview.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				F0FA5D802C74F66800DD460C /* Constants.swift in Sources */,
 				F0996A232C724AA8002D0CF9 /* Styleguide.swift in Sources */,
 				F0A293992C6D2C6800135381 /* LanguageCoordinator+Generate.swift in Sources */,
+				F0CAC67B2C8232B800A65C71 /* isXCodePreview.swift in Sources */,
 				F0996A292C725E45002D0CF9 /* Fonts.swift in Sources */,
 				F0CAC65F2C82250300A65C71 /* openURL.swift in Sources */,
 				F0A2939B2C6D2C6E00135381 /* LanguageCoordinator+CurrentLanguage.swift in Sources */,
