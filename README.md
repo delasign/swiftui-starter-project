@@ -103,3 +103,7 @@ You may be interested in our other open source projects.
 ## Errors
 1. <a href="https://www.delasign.com/blog/how-to-resolve-the-declaration-name-is-not-covered-by-macro-error/?utm=swiftui-starter-project">How to resolve the "Declaration name is not covered by macro" error 🔗</a>
 2. <a href="https://www.delasign.com/blog/how-to-resolve-fatal-error-in-environment-objects-in-swift-previews/?utm=swiftui-starter-project">How to resolve "Fatal Error in Environment+Objects" in Swift Previews 🔗</a>
+
+## Other
+
+1. <a href="https://www.delasign.com/blog/how-to-check-if-an-app-is-in-the-simulator-in-swift/?utm=swiftui-starter-project">How to check if an app is in the Simulator in Swift 🔗</a>

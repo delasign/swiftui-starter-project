@@ -24,6 +24,7 @@
 		F0A293972C6D2C3800135381 /* LanguageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293962C6D2C3800135381 /* LanguageCoordinator.swift */; };
 		F0A293992C6D2C6800135381 /* LanguageCoordinator+Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293982C6D2C6800135381 /* LanguageCoordinator+Generate.swift */; };
 		F0A2939B2C6D2C6E00135381 /* LanguageCoordinator+CurrentLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2939A2C6D2C6E00135381 /* LanguageCoordinator+CurrentLanguage.swift */; };
+		F0CAC64F2C82233900A65C71 /* isSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC64E2C82233900A65C71 /* isSimulator.swift */; };
 		F0FA5D802C74F66800DD460C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA5D7F2C74F66800DD460C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		F0A293962C6D2C3800135381 /* LanguageCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCoordinator.swift; sourceTree = "<group>"; };
 		F0A293982C6D2C6800135381 /* LanguageCoordinator+Generate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LanguageCoordinator+Generate.swift"; sourceTree = "<group>"; };
 		F0A2939A2C6D2C6E00135381 /* LanguageCoordinator+CurrentLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LanguageCoordinator+CurrentLanguage.swift"; sourceTree = "<group>"; };
+		F0CAC64E2C82233900A65C71 /* isSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSimulator.swift; sourceTree = "<group>"; };
 		F0FA5D7F2C74F66800DD460C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +65,7 @@
 		F0996A242C724ABA002D0CF9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				F0CAC64D2C82233000A65C71 /* System */,
 				F0996A252C724AD0002D0CF9 /* Fonts */,
 			);
 			path = Utils;
@@ -220,6 +223,14 @@
 			path = Content;
 			sourceTree = "<group>";
 		};
+		F0CAC64D2C82233000A65C71 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				F0CAC64E2C82233900A65C71 /* isSimulator.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -298,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0CAC64F2C82233900A65C71 /* isSimulator.swift in Sources */,
 				F0A293892C6D29AC00135381 /* DebuggingIdentifiers.swift in Sources */,
 				F0996A2B2C725E5A002D0CF9 /* Colors.swift in Sources */,
 				F0996A272C724AD6002D0CF9 /* PrintSystemFonts.swift in Sources */,
