@@ -11,6 +11,10 @@ struct SampleScreen: View {
     @Environment (LanguageCoordinator.self) var languageCoordinator
         
     var body: some View {
+        fillWidth
+    }
+    
+    var noFill: some View {
         VStack(spacing: 10) {
             Image(systemName: "globe")
                 .imageScale(.large)
@@ -19,8 +23,53 @@ struct SampleScreen: View {
                 Styleguide.Body(languageCoordinator.currentContent.sample.sampleBody)
         }
         .padding()
+        .background(.red)
     }
     
+    var fillWidth: some View {
+        VStack(spacing: 10) {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+                Styleguide.Title(languageCoordinator.currentContent.sample.sampleString)
+                Styleguide.Body(languageCoordinator.currentContent.sample.sampleBody)
+        }
+        .padding()
+        .frame(maxWidth: .infinity)
+        // Color must be at the end if you want it to occupy the entire area.
+        // Move above the frame to see it occupy only the content.
+        .background(.red)
+    }
+    
+    var fillHeight: some View {
+        VStack(spacing: 10) {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+                Styleguide.Title(languageCoordinator.currentContent.sample.sampleString)
+                Styleguide.Body(languageCoordinator.currentContent.sample.sampleBody)
+        }
+        .padding()
+        .frame(maxHeight: .infinity)
+        // Color must be at the end if you want it to occupy the entire area.
+        // Move above the frame to see it occupy only the content.
+        .background(.red)
+    }
+    
+    var fillWidthAndHeight: some View {
+        VStack(spacing: 10) {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+                Styleguide.Title(languageCoordinator.currentContent.sample.sampleString)
+                Styleguide.Body(languageCoordinator.currentContent.sample.sampleBody)
+        }
+        .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        // Color must be at the end if you want it to occupy the entire area.
+        // Move above the frame to see it occupy only the content.
+        .background(.red)
+    }
     
 }
 
