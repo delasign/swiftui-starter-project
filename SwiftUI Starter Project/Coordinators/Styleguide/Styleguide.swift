@@ -9,7 +9,6 @@ import Foundation
 import SwiftUI
 
 class Styleguide {
-    @Environment (\.colorScheme) static var colorScheme
     
     static let identifier: String = "[Styleguide]"
     private let debugAvailableSystemFonts: Bool = false
@@ -22,26 +21,14 @@ class Styleguide {
         }
     }
     
-    static let isDarkMode: Bool = {
-        return Styleguide.colorScheme == .dark
-    }()
-    
     // MARK: Colors
     static func getBackgroundColor() -> Color {
-        if #available(iOS 13.0, *) {
-            return isDarkMode ? Colors.black : Colors.white
-        } else {
-            return Colors.white
-        }
+        return Colors.background
 
     }
 
     static func getPrimaryColor() -> Color {
-        if #available(iOS 13.0, *) {
-            return isDarkMode ? Colors.white : Colors.black
-        } else {
-            return Colors.black
-        }
+        return Colors.primary
     }
     
     // MARK: Text

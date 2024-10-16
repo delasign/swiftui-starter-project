@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 struct Colors {
-    static let white: Color = .white
-    static let black: Color = .black
+    static let primary: Color = Color("StyleguidePrimary")
+    static let background: Color = Color("StyleguideBackground")
 }
 
