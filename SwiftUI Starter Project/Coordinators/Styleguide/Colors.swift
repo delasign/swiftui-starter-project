@@ -11,5 +11,6 @@ import SwiftUI
 struct Colors {
     static let primary: Color = Color("StyleguidePrimary")
     static let background: Color = Color("StyleguideBackground")
+    static let sample: Color = Color("Sample")
 }
 
