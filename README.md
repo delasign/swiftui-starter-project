@@ -126,3 +126,4 @@ You may be interested in our other open source projects.
 
 1. <a href="https://www.delasign.com/blog/how-to-check-if-an-app-is-in-the-simulator-in-swift/?utm=swiftui-starter-project">How to check if an app is in the Simulator in Swift 🔗</a>
 2. <a href="https://delasign.com/blog/how-to-add-an-app-delegate-to-a-swiftui-app/?utm=swiftui-starter-project">How to add an App Delegate to a SwiftUI app 🔗</a>
+3. <a href="https://www.delasign.com/blog/how-to-make-sure-swiftdata-deletes-objects-when-app-terminates/?utm=swiftui-starter-project">How to make sure SwiftData deletes objects when app terminates 🔗</a>
