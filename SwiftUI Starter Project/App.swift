@@ -18,6 +18,9 @@ struct Application: App {
         WindowGroup {
             SampleScreen()
                 .environment(languageCoordinator)
+                .onReceive(NotificationCenter.default.publisher(for: UIApplication.willTerminateNotification)) { _ in
+                    // tear down
+                }
         }
     }
 }
