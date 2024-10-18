@@ -114,8 +114,9 @@ You may be interested in our other open source projects.
 
 ## Scene Phases
 
-1. <a href="https://delasign.com/blog/how-to-execute-functions-when-a-user-quits-a-swiftui-app/?utm=swiftui-starter-project">How to execute functions when a user quits a SwiftUI app 🔗</a>
-2. <a href="https://delasign.com/blog/how-to-interrupt-delay-or-stop-a-macos-swiftui-app-from-terminating/?utm=swiftui-starter-project">How to interrupt, delay or stop a MacOS SwiftUI App from terminating 🔗</a>
+1. <a href="https://delasign.com/blog/how-to-listen-to-changes-in-phases-in-a-swiftui-app/?utm=swiftui-starter-project">How to listen to changes in Phases in a SwiftUI app 🔗</a>
+2. <a href="https://delasign.com/blog/how-to-execute-functions-when-a-user-quits-a-swiftui-app/?utm=swiftui-starter-project">How to execute functions when a user quits a SwiftUI app 🔗</a>
+3. <a href="https://delasign.com/blog/how-to-interrupt-delay-or-stop-a-macos-swiftui-app-from-terminating/?utm=swiftui-starter-project">How to interrupt, delay or stop a MacOS SwiftUI App from terminating 🔗</a>
 
 ## Errors
 1. <a href="https://www.delasign.com/blog/how-to-resolve-the-declaration-name-is-not-covered-by-macro-error/?utm=swiftui-starter-project">How to resolve the "Declaration name is not covered by macro" error 🔗</a>
