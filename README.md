@@ -99,6 +99,7 @@ You may be interested in our other open source projects.
 
 ### SwiftData
 1. <a href="https://delasign.com/blog/swiftui-swiftdata-quick-start-guide/?utm=swiftui-starter-project">SwiftUI SwiftData Quick Start Guide 🔗</a>
+2. <a href="https://delasign.com/blog/how-to-use-swiftdata-in-a-singleton-within-a-swiftui-app/?utm=swiftui-starter-project">How to use SwiftData in a Singleton within a SwiftUI app 🔗</a>
 
 ## Async / Await
 1. <a href="https://delasign.com/blog/swift-async-await/?utm=swiftui-starter-project">How to use async and await in Swift projects 🔗</a>
@@ -111,6 +112,11 @@ You may be interested in our other open source projects.
 5. <a href="https://www.delasign.com/blog/how-to-show-or-hide-the-swift-preview-canvas/?utm=swiftui-starter-project">How to show or hide the XCode Preview Canvas 🔗</a>
 6. <a href="https://www.delasign.com/blog/how-to-check-if-code-is-running-in-an-xcode-preview-in-swift/?utm=swiftui-starter-project">How to check if code is running in an XCode Preview in Swift 🔗</a> 
 
+## Scene Phases
+
+1. <a href="https://delasign.com/blog/how-to-execute-functions-when-a-user-quits-a-swiftui-app/?utm=swiftui-starter-project">How to execute functions when a user quits a SwiftUI app 🔗</a>
+2. <a href="https://delasign.com/blog/how-to-interrupt-delay-or-stop-a-macos-swiftui-app-from-terminating/?utm=swiftui-starter-project">How to interrupt, delay or stop a MacOS SwiftUI App from terminating 🔗</a>
+
 ## Errors
 1. <a href="https://www.delasign.com/blog/how-to-resolve-the-declaration-name-is-not-covered-by-macro-error/?utm=swiftui-starter-project">How to resolve the "Declaration name is not covered by macro" error 🔗</a>
 2. <a href="https://www.delasign.com/blog/how-to-resolve-fatal-error-in-environment-objects-in-swift-previews/?utm=swiftui-starter-project">How to resolve "Fatal Error in Environment+Objects" in XCode Previews 🔗</a>
@@ -118,3 +124,4 @@ You may be interested in our other open source projects.
 ## Other
 
 1. <a href="https://www.delasign.com/blog/how-to-check-if-an-app-is-in-the-simulator-in-swift/?utm=swiftui-starter-project">How to check if an app is in the Simulator in Swift 🔗</a>
+2. <a href="https://delasign.com/blog/how-to-add-an-app-delegate-to-a-swiftui-app/?utm=swiftui-starter-project">How to add an App Delegate to a SwiftUI app 🔗</a>
