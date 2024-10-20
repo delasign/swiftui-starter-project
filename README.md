@@ -118,10 +118,12 @@ You may be interested in our other open source projects.
 2. <a href="https://delasign.com/blog/how-to-execute-functions-when-a-user-quits-a-swiftui-app/?utm=swiftui-starter-project">How to execute functions when a user quits a SwiftUI app 🔗</a>
 3. <a href="https://delasign.com/blog/how-to-interrupt-delay-or-stop-a-macos-swiftui-app-from-terminating/?utm=swiftui-starter-project">How to interrupt, delay or stop a MacOS SwiftUI App from terminating 🔗</a>
 
+
 ## Errors
 1. <a href="https://www.delasign.com/blog/how-to-resolve-the-declaration-name-is-not-covered-by-macro-error/?utm=swiftui-starter-project">How to resolve the "Declaration name is not covered by macro" error 🔗</a>
 2. <a href="https://www.delasign.com/blog/how-to-resolve-fatal-error-in-environment-objects-in-swift-previews/?utm=swiftui-starter-project">How to resolve "Fatal Error in Environment+Objects" in XCode Previews 🔗</a>
 3. <a href="https://www.delasign.com/blog/onkeypress-modifier-not-registering-in-a-swiftui-macos-app/?utm=swiftui-starter-project">onKeyPress Modifier not registering in a SwiftUI MacOS app 🔗</a>
+4. <a href="https://www.delasign.com/blog/how-to-resolve-error-function-declares-an-opaque-return-type-some-view/?utm=swiftui-starter-project">How to resolve Error:Function declares an opaque return type some View 🔗</a>
 
 ## Other
 
@@ -129,3 +131,5 @@ You may be interested in our other open source projects.
 2. <a href="https://delasign.com/blog/how-to-add-an-app-delegate-to-a-swiftui-app/?utm=swiftui-starter-project">How to add an App Delegate to a SwiftUI app 🔗</a>
 3. <a href="https://www.delasign.com/blog/how-to-make-sure-swiftdata-deletes-objects-when-app-terminates/?utm=swiftui-starter-project">How to make sure SwiftData deletes objects when app terminates 🔗</a>
 4. <a href="https://www.delasign.com/blog/how-to-listen-for-key-presses-in-a-macos-swiftui-app/?utm=swiftui-starter-project">How to listen for key presses in a MacOS SwiftUI app 🔗</a>
+5. <a href="https://www.delasign.com/blog/how-to-place-focus-on-a-view-in-swiftui/?utm=swiftui-starter-project">How to place focus on a view in SwiftUI 🔗</a>
+6. <a href="https://www.delasign.com/blog/how-to-use-an-emptyview-within-a-function-with-return-type-some-view/?utm=swiftui-starter-project">How to use an EmptyView within a function with return type some View 🔗</a>
