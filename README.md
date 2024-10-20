@@ -121,9 +121,11 @@ You may be interested in our other open source projects.
 ## Errors
 1. <a href="https://www.delasign.com/blog/how-to-resolve-the-declaration-name-is-not-covered-by-macro-error/?utm=swiftui-starter-project">How to resolve the "Declaration name is not covered by macro" error 🔗</a>
 2. <a href="https://www.delasign.com/blog/how-to-resolve-fatal-error-in-environment-objects-in-swift-previews/?utm=swiftui-starter-project">How to resolve "Fatal Error in Environment+Objects" in XCode Previews 🔗</a>
+3. <a href="https://www.delasign.com/blog/onkeypress-modifier-not-registering-in-a-swiftui-macos-app/?utm=swiftui-starter-project">onKeyPress Modifier not registering in a SwiftUI MacOS app 🔗</a>
 
 ## Other
 
 1. <a href="https://www.delasign.com/blog/how-to-check-if-an-app-is-in-the-simulator-in-swift/?utm=swiftui-starter-project">How to check if an app is in the Simulator in Swift 🔗</a>
 2. <a href="https://delasign.com/blog/how-to-add-an-app-delegate-to-a-swiftui-app/?utm=swiftui-starter-project">How to add an App Delegate to a SwiftUI app 🔗</a>
 3. <a href="https://www.delasign.com/blog/how-to-make-sure-swiftdata-deletes-objects-when-app-terminates/?utm=swiftui-starter-project">How to make sure SwiftData deletes objects when app terminates 🔗</a>
+4. <a href="https://www.delasign.com/blog/how-to-listen-for-key-presses-in-a-macos-swiftui-app/?utm=swiftui-starter-project">How to listen for key presses in a MacOS SwiftUI app 🔗</a>
