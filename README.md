@@ -118,6 +118,10 @@ You may be interested in our other open source projects.
 2. <a href="https://delasign.com/blog/how-to-execute-functions-when-a-user-quits-a-swiftui-app/?utm=swiftui-starter-project">How to execute functions when a user quits a SwiftUI app 🔗</a>
 3. <a href="https://delasign.com/blog/how-to-interrupt-delay-or-stop-a-macos-swiftui-app-from-terminating/?utm=swiftui-starter-project">How to interrupt, delay or stop a MacOS SwiftUI App from terminating 🔗</a>
 
+## Menus
+1. <a href="https://delasign.com/blog/how-to-replace-or-remove-the-new-window-command-from-the-file-menu/?utm=swiftui-starter-project">How to replace or remove the new window command from the file menu 🔗</a>
+2. <a href="https://delasign.com/blog/how-to-add-commands-to-the-file-menu-of-a-swiftui-macos-app/?utm=swiftui-starter-project">How to add commands to the file menu of a SwiftUI MacOS app 🔗</a>
+3. <a href="https://delasign.com/blog/how-to-add-a-menu-that-appears-on-right-click-in-a-swiftui-macos-app/?utm=swiftui-starter-project">How to add a menu that appears on right click in a SwiftUI MacOS app 🔗</a>
 
 ## Errors
 1. <a href="https://www.delasign.com/blog/how-to-resolve-the-declaration-name-is-not-covered-by-macro-error/?utm=swiftui-starter-project">How to resolve the "Declaration name is not covered by macro" error 🔗</a>
