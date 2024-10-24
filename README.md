@@ -50,6 +50,7 @@ You may be interested in our other open source projects.
 12. <a href="https://delasign.com/blog/apple-metal-resources-guide/?utm=swiftui-starter-project">Apple Metal Resources Guide 🔗</a>
 13. <a href="https://www.delasign.com/blog/swiftui-what-are-property-wrappers-and-which-should-i-use/?utm=swiftui-starter-project">SwiftUI: What are property wrappers and which should I use? 🔗</a>
 14. <a href="https://delasign.com/blog/swiftui-swiftdata-quick-start-guide/?utm=swiftui-starter-project">SwiftUI SwiftData Quick Start Guide 🔗</a>
+15. <a href="https://www.delasign.com/blog/how-to-delete-a-macos-app-built-from-xcode/?utm=swiftui-starter-project">How to delete a MacOS app built from XCode 🔗</a>
 
 # 📚 Tutorials
 
@@ -142,4 +143,3 @@ You may be interested in our other open source projects.
 4. <a href="https://www.delasign.com/blog/how-to-listen-for-key-presses-in-a-macos-swiftui-app/?utm=swiftui-starter-project">How to listen for key presses in a MacOS SwiftUI app 🔗</a>
 5. <a href="https://www.delasign.com/blog/how-to-place-focus-on-a-view-in-swiftui/?utm=swiftui-starter-project">How to place focus on a view in SwiftUI 🔗</a>
 6. <a href="https://www.delasign.com/blog/how-to-use-an-emptyview-within-a-function-with-return-type-some-view/?utm=swiftui-starter-project">How to use an EmptyView within a function with return type some View 🔗</a>
-7. <a href="https://www.delasign.com/blog/how-to-delete-a-macos-app-built-from-xcode/?utm=swiftui-starter-project">How to delete a MacOS app built from XCode 🔗</a>
