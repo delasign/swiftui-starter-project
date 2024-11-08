@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SampleScreen: View {
-    @Environment (LanguageCoordinator.self) var languageCoordinator
+    @Environment(LanguageCoordinator.self) var languageCoordinator
         
     var body: some View {
         VStack(spacing: 10) {

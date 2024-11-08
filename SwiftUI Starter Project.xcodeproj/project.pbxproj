@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F005AF562CDEBD77006B2844 /* es.json in Resources */ = {isa = PBXBuildFile; fileRef = F0A293922C6D2A2A00135381 /* es.json */; };
+		F005AF572CDEBD77006B2844 /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = F0A293902C6D2A2100135381 /* en.json */; };
+		F005AF582CDEBD77006B2844 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2938E2C6D29F500135381 /* Language.swift */; };
+		F005AF592CDEBD77006B2844 /* LanguageCoordinator+Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293982C6D2C6800135381 /* LanguageCoordinator+Generate.swift */; };
+		F005AF5A2CDEBD77006B2844 /* UIContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2938C2C6D29EF00135381 /* UIContent.swift */; };
+		F005AF5B2CDEBD77006B2844 /* LanguageCoordinator+CurrentLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2939A2C6D2C6E00135381 /* LanguageCoordinator+CurrentLanguage.swift */; };
+		F005AF5C2CDEBD77006B2844 /* LanguageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293962C6D2C3800135381 /* LanguageCoordinator.swift */; };
+		F005AF5D2CDEBD77006B2844 /* DebuggingIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293882C6D29AC00135381 /* DebuggingIdentifiers.swift */; };
+		F005AF5E2CDEBD77006B2844 /* DebuggingIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293882C6D29AC00135381 /* DebuggingIdentifiers.swift */; };
+		F005AF5F2CDEBD77006B2844 /* LanguageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293962C6D2C3800135381 /* LanguageCoordinator.swift */; };
+		F005AF602CDEBD77006B2844 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2938E2C6D29F500135381 /* Language.swift */; };
+		F005AF612CDEBD77006B2844 /* UIContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2938C2C6D29EF00135381 /* UIContent.swift */; };
+		F005AF622CDEBD77006B2844 /* LanguageCoordinator+Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A293982C6D2C6800135381 /* LanguageCoordinator+Generate.swift */; };
+		F005AF632CDEBD77006B2844 /* LanguageCoordinator+CurrentLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2939A2C6D2C6E00135381 /* LanguageCoordinator+CurrentLanguage.swift */; };
+		F005AF642CDEBD77006B2844 /* es.json in Resources */ = {isa = PBXBuildFile; fileRef = F0A293922C6D2A2A00135381 /* es.json */; };
+		F005AF652CDEBD77006B2844 /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = F0A293902C6D2A2100135381 /* en.json */; };
 		F0996A212C6E4F01002D0CF9 /* StringJSON in Frameworks */ = {isa = PBXBuildFile; productRef = F0996A202C6E4F01002D0CF9 /* StringJSON */; };
 		F0996A232C724AA8002D0CF9 /* Styleguide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0996A222C724AA8002D0CF9 /* Styleguide.swift */; };
 		F0996A272C724AD6002D0CF9 /* PrintSystemFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0996A262C724AD6002D0CF9 /* PrintSystemFonts.swift */; };
@@ -446,6 +462,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F005AF562CDEBD77006B2844 /* es.json in Resources */,
+				F005AF572CDEBD77006B2844 /* en.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +471,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F005AF642CDEBD77006B2844 /* es.json in Resources */,
+				F005AF652CDEBD77006B2844 /* en.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +494,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F005AF582CDEBD77006B2844 /* Language.swift in Sources */,
+				F005AF592CDEBD77006B2844 /* LanguageCoordinator+Generate.swift in Sources */,
+				F005AF5A2CDEBD77006B2844 /* UIContent.swift in Sources */,
+				F005AF5B2CDEBD77006B2844 /* LanguageCoordinator+CurrentLanguage.swift in Sources */,
+				F005AF5C2CDEBD77006B2844 /* LanguageCoordinator.swift in Sources */,
+				F005AF5D2CDEBD77006B2844 /* DebuggingIdentifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +507,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F005AF5E2CDEBD77006B2844 /* DebuggingIdentifiers.swift in Sources */,
+				F005AF5F2CDEBD77006B2844 /* LanguageCoordinator.swift in Sources */,
+				F005AF602CDEBD77006B2844 /* Language.swift in Sources */,
+				F005AF612CDEBD77006B2844 /* UIContent.swift in Sources */,
+				F005AF622CDEBD77006B2844 /* LanguageCoordinator+Generate.swift in Sources */,
+				F005AF632CDEBD77006B2844 /* LanguageCoordinator+CurrentLanguage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +567,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7A7MF4P2T9;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.delasign.UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -553,7 +585,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7A7MF4P2T9;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.delasign.UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -572,7 +604,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7A7MF4P2T9;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.delasign.Tests;
@@ -595,7 +627,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7A7MF4P2T9;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.delasign.Tests;

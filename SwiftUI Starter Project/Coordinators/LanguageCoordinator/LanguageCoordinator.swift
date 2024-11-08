@@ -16,6 +16,7 @@ class LanguageCoordinator {
     static let contentPrefix = "ui_content_"
     
     let languageCode: String
+    let isTestEnvironment: Bool
 
     var currentLanguage: Language = .english {
         didSet {
@@ -47,12 +48,15 @@ class LanguageCoordinator {
             }
         }
     }
+    
+    
 
     // MARK: Lifecycle
 
-    init(languageCode: String? = nil) {
+    init(languageCode: String? = nil, isTestEnvironment: Bool? = false) {
         debugPrint("\(LanguageCoordinator.identifier) initialize \(DebuggingIdentifiers.actionOrEventInProgress) Initializing.")
         
+        self.isTestEnvironment = isTestEnvironment ?? false
         
         if let environmentLanguageCode = languageCode {
             debugPrint("\(LanguageCoordinator.identifier) initialize \(DebuggingIdentifiers.actionOrEventSucceded) set language code to environemnt language `\(environmentLanguageCode)`.")
