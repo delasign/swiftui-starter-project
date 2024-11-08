@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import SwiftUI_Starter_Project
 
 final class UITestsLaunchTests: XCTestCase {
 
