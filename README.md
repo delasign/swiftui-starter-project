@@ -129,11 +129,20 @@ You may be interested in our other open source projects.
 2. <a href="https://www.delasign.com/blog/how-to-delete-a-file-in-swift-within-a-macos-app/?utm=swiftui-starter-project">How to delete a file in Swift within a MacOS app 🔗</a>
 3. <a href="https://www.delasign.com/blog/how-to-find-the-temporary-files-an-xcode-macos-app-generates/?utm=swiftui-starter-project">How to find the temporary files an XCode MacOS app generates 🔗</a>
 
+## Swift Testing
+1. <a href="https://www.delasign.com/blog/how-to-setup-swift-testing-in-swift-or-swiftui-project-in-xcode/?utm=swift-starter-project">How to setup Swift Testing in a Swift or SwiftUI project in Xcode 🔗</a>
+2. <a href="https://www.delasign.com/blog/how-to-import-a-project-into-swift-testing/?utm=swift-starter-project">How to import a project into Swift Testing 🔗</a>
+3. <a href="https://www.delasign.com/blog/how-to-add-the-languagecoordinator-to-swift-testing/?utm=swift-starter-project">How to add the LanguageCoordinator to Swift Testing 🔗</a>
+
+### Errors
+1. <a href="https://www.delasign.com/blog/error-cant-add-app-target-to-target-to-be-tested/?utm=swift-starter-project">Error: Can't add App Target to Target to be Tested. 🔗</a>
+
 ## Errors
 1. <a href="https://www.delasign.com/blog/how-to-resolve-the-declaration-name-is-not-covered-by-macro-error/?utm=swiftui-starter-project">How to resolve the "Declaration name is not covered by macro" error 🔗</a>
 2. <a href="https://www.delasign.com/blog/how-to-resolve-fatal-error-in-environment-objects-in-swift-previews/?utm=swiftui-starter-project">How to resolve "Fatal Error in Environment+Objects" in XCode Previews 🔗</a>
 3. <a href="https://www.delasign.com/blog/onkeypress-modifier-not-registering-in-a-swiftui-macos-app/?utm=swiftui-starter-project">onKeyPress Modifier not registering in a SwiftUI MacOS app 🔗</a>
 4. <a href="https://www.delasign.com/blog/how-to-resolve-error-function-declares-an-opaque-return-type-some-view/?utm=swiftui-starter-project">How to resolve Error:Function declares an opaque return type some View 🔗</a>
+5. <a href="https://www.delasign.com/blog/error-cant-add-app-target-to-target-to-be-tested/?utm=swift-starter-project">Error: Can't add App Target to Target to be Tested. 🔗</a>
 
 ## Other
 
